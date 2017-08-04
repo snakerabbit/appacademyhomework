@@ -3,16 +3,16 @@ class Queue
     @queue = []
   end
 
-  def enqueue (value)
+  def enqueue(value)
     @queue.push(value)
   end
 
-  def dequeue (value)
+  def dequeue(value)
     @queue.shift(value)
   end
 
   def show
     @queue
   end
-  
+
 end
